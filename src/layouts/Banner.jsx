@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <section className="py-[80px]">
       <Container>
-        <Flex>
+        <Flex className="items-center">
 
   
           <div className=" w-[50%]">
@@ -20,7 +20,7 @@ const Banner = () => {
               with high quality services
             </h1>
 
-            <Paragraph className="w-[575px] mt-10 mb-[30px] leading-[26px]">
+            <Paragraph className="w-[604px] mt-10 mb-[30px] leading-[26px]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don’t look.
