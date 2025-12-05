@@ -3,6 +3,7 @@ import React from "react";
 import Banner from "./layouts/Banner";
 import Success from "./layouts/Success";
 import Service from "./layouts/Service";
+import Work from "./layouts/Work";
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
      <Banner/>
      <Success/>
      <Service/>
+     <Work/>
  
 
 
