@@ -4,6 +4,7 @@ import Banner from "./layouts/Banner";
 import Success from "./layouts/Success";
 import Service from "./layouts/Service";
 import Work from "./layouts/Work";
+import Agenc from "./layouts/Agenc";
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
      <Success/>
      <Service/>
      <Work/>
+     <Agenc/>
  
 
 
