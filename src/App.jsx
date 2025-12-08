@@ -8,6 +8,7 @@ import Agenc from "./layouts/Agenc";
 import Review from "./layouts/Review";
 import Development from "./layouts/Development";
 import Lastnavbar from "./layouts/Lastnavbar";
+import Last from "./layouts/Last";
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
      <Review/>
      <Development/>
      <Lastnavbar/>
+     <Last/>
  
 
 
