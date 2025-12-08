@@ -7,6 +7,7 @@ import Work from "./layouts/Work";
 import Agenc from "./layouts/Agenc";
 import Review from "./layouts/Review";
 import Development from "./layouts/Development";
+import Lastnavbar from "./layouts/Lastnavbar";
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
      <Agenc/>
      <Review/>
      <Development/>
+     <Lastnavbar/>
  
 
 
