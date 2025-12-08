@@ -1,10 +1,10 @@
 import React from "react";
 import Paragraph from "./Paragraph";
 
-const Agencard = ({ src, title, desc }) => {
+const Agencard = ({ src, title, desc,className }) => {
   return (
     <div
-      className="w-[344px] h-[176px] bg-white gap-4 items-start"
+      className={`w-[344px] h-[176px] bg-white gap-4 items-start ${className}`}
     >
       {/* Icon */}
       <img

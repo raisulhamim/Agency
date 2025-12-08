@@ -4,14 +4,20 @@ import Heading from "../components/Heading";
 import Paragraph from "../components/Paragraph";
 
 import AgencCard from "../components/Agencard";
+import Image from "../components/Image";
 
 import iconone from "../assets/iconone.png"; // <-- Make sure file exists
+import icontwo from "../assets/icontwo.png"; // <-- Make sure file exists
+import iconthree from "../assets/iconthree.png"; // <-- Make sure file exists
+import agencbanner from "../assets/agencbanner.png"; // <-- Make sure file exists
+import Flex from './../components/Flex';
 
 const Agenc = () => {
   return (
-    <section>
+    <section className="pb-[150px]">
       <Container>
-        <div>
+       <Flex className='items-end'>
+         <div className="w-7/12">
           
           <Heading
             className="w-[480px]"
@@ -26,14 +32,33 @@ const Agenc = () => {
           </Paragraph>
 
           
-          <div className="mt-10">
+          <div className="mt-10 flex">
             <AgencCard
+            className="mr-[80px]"
               src={iconone}
               title="Innovative Ideas"
               desc="Because each project is different, we adapt to your business model."
             />
+            <AgencCard
+            className="mt-10 mb-3"
+              src={icontwo}
+              title="Dedicated Support"
+              desc="We provide 24/7 support for all our clients and serve them professionally."
+            />
           </div>
+           <div className="ml-[200px]">
+             <AgencCard
+             
+              src={iconthree}
+              title="Honest Pricing"
+              desc="Pricing on projects are based on various analyzes and are cost effective."
+            />
+           </div>
         </div>
+        <div className="w-5/12">
+          <Image src={agencbanner}/>
+        </div>
+       </Flex>
       </Container>
     </section>
   );
