@@ -8,36 +8,39 @@ import Flex from "../components/Flex";
 
 const Banner = () => {
   return (
-    <section className="py-[80px]">
+    <section className="py-10 md:py-[80px] px-2">
       <Container>
-        <Flex className="items-center">
+        <Flex className="items-center flex-col lg:flex-row gap-10 lg:gap-0">
 
-  
-          <div className=" w-[50%]">
-            <h1 className="text-[75px] font-['Inter'] leading-[120%] font-bold w-[636px] text-[#111]">
+          {/* LEFT CONTENT */}
+          <div className="w-full lg:w-[50%] text-center lg:text-left">
+
+            <h1 className="text-[40px] sm:text-[55px] md:text-[65px] lg:text-[75px] 
+            font-['Inter'] leading-[120%] font-bold text-[#111]">
               We Help brands
               <br />
               with high quality services
             </h1>
 
-            <Paragraph className="w-[604px] mt-10 mb-[30px] leading-[26px]">
+            <Paragraph className="w-full md:w-[80%] lg:w-[90%] my-5 leading-[26px]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don’t look.
             </Paragraph>
 
-            <Button text="Get Started" />
-         </div>
-
-          {/* RIGHT IMAGE AREA */}
-          <div className=" w-[50%]">
-            <Image src={bannerphoto} />
+            <Button text="Get Started" className="mt-4" />
           </div>
 
-       </Flex>
+          {/* RIGHT IMAGE */}
+          <div className="w-full lg:w-[50%] flex justify-center lg:justify-end">
+            <Image className="w-[80%] sm:w-[70%] md:w-[60%] lg:w-[90%]" src={bannerphoto} alt="Banner" />
+          </div>
+
+        </Flex>
       </Container>
     </section>
   );
 };
 
 export default Banner;
+
