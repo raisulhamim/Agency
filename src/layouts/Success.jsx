@@ -13,7 +13,7 @@ const Success = () => {
     <section>
           
    <Container>
-  <div className="w-[1320px] h-[300px] rounded-3xl bg-[#f5f2ff] mx-auto flex pt-[70px] ">
+  <div className="md:w-[1320px] h-[300px] rounded-3xl bg-[#f5f2ff] mx-auto flex pt-[70px] ">
 
     {/* Left Section */}
     <div className="w-[40%] pl-[50px]">
