@@ -25,11 +25,11 @@ const Countsuccess = ({ text, retext }) => {
 
   return (
     <div>
-      <h1 className="text-[50px] font-['Inter'] text-[#151515] font-bold">
+      <h1 className="text-lg md:text-[50px] font-['Inter'] text-[#151515] font-bold">
         {text.includes("+") ? `${count}+` : count}
       </h1>
 
-      <p className="text-[20px] font-['Inter'] font-medium text-[#737373] py-3">
+      <p className="text-sm md:text-xl font-['Inter'] font-medium text-[#737373] py-3">
         {retext}
       </p>
     </div>
