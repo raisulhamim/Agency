@@ -22,7 +22,7 @@ const Service = () => {
                 {/* Heading Section */}
                 <div className="flex flex-col items-center text-center">
                     <Heading text="Our Provided Services" />
-                    <Paragraph className="w-[609px] pt-5 leading-[26px]">
+                    <Paragraph className="md:w-[609px] pt-5 leading-[26px]">
                         There are many variations of passages of Lorem Ipsum available, but themajority have suffered alteration in some form.
                     </Paragraph>
                 </div>
