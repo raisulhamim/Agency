@@ -2,7 +2,7 @@ import React from "react";
 
 const Workcard = ({ src, heading, paragraph }) => {
   return (
-    <div className="w-[424px] h-[457px] bg-white rounded-[20px] drop-shadow-md hover:shadow-xl transition-shadow duration-300  flex flex-col items-center text-center">
+    <div className="md:w-[424px] h-[457px] bg-white rounded-[20px] drop-shadow-md hover:shadow-xl transition-shadow duration-300  flex flex-col items-center text-center">
 
       {src && (
         <img

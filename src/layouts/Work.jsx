@@ -16,16 +16,16 @@ import ListItem from '../components/ListItem'
 
 const Work = () => {
     return (
-        <section className='py-[150px]'>
+        <section className='py-4 md:py-[150px]'>
             <Container>
                 <div>
                     <Heading className="text-center" text="Our Recent Work" />
-                    <Paragraph className="w-[620px] mx-auto text-center pt-5">There are many variations of passages of Lorem Ipsum available,
+                    <Paragraph className="md:w-[620px] mx-auto text-center pt-5">There are many variations of passages of Lorem Ipsum available,
                         but themajority  have suffered alteration in some form.</Paragraph>
                 </div>
-                <Flex>
+                <Flex className="px-3">
 
-                    <ul className="flex gap-[138px] text-center mx-auto pt-7 pb-12">
+                    <ul className="flex gap-2 md:gap-[138px] text-center mx-auto pt-7 pb-12">
                         <ListItem text="All" />
                         <ListItem text="Mobile Design" />
                         <ListItem text="Web design" />
