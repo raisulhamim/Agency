@@ -16,7 +16,7 @@ import service6 from '../assets/servicesix.png'
 
 const Service = () => {
     return (
-        <section className='mt-[150px]'>
+        <section className='md:mt-[150px]'>
             <Container>
 
                 {/* Heading Section */}

@@ -12,8 +12,8 @@ const Card = ({ src, alt }) => {
 
             {/* Image – hidden by default, visible on hover */}
             <img
-                className="w-[30%] h-[35%] mx-auto mb-[20px] opacity-0 scale-75 transition-all duration-300 
-               group-hover:opacity-100 group-hover:scale-100
+                className="w-[30%] h-[35%] mx-auto mb-[20px] md:opacity-0 md:scale-75 transition-all duration-300 
+               md:group-hover:opacity-100  md:group-hover:scale-100
                   /* FIX: Height added */"
                 src={src}
                 alt={alt}
