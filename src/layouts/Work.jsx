@@ -16,7 +16,7 @@ import ListItem from '../components/ListItem'
 
 const Work = () => {
     return (
-        <section className='py-4 md:py-[150px]'>
+        <section className='py-10 md:py-[150px]'>
             <Container>
                 <div>
                     <Heading className="text-center" text="Our Recent Work" />

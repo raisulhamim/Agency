@@ -3,9 +3,9 @@ import Paragraph from "./Paragraph";
 
 const Agencard = ({ src, title, desc,className }) => {
   return (
-    <div
-      className={`w-[344px] h-[176px] bg-white gap-4 items-start ${className}`}
-    >
+    <div className="bg-white p-5 sm:p-6 rounded-xl 
+flex flex-col items-center md:items-start text-center md:text-left gap-3">
+
       {/* Icon */}
       <img
         src={src}

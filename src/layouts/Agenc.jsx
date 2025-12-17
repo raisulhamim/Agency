@@ -14,25 +14,25 @@ import Flex from './../components/Flex';
 
 const Agenc = () => {
   return (
-    <section className="pb-[150px]">
+    <section className="py-10 md:pb-[150px]">
       <Container>
-       <Flex className='items-end'>
-         <div className="w-7/12">
+       <Flex className='md:items-end'>
+         <div className="lg:w-7/12">
           
           <Heading
-            className="w-[480px]"
+            className="md:w-[480px] w-[300px]"
             text="Why You Should Choose Agenc"
           />
 
          
-          <Paragraph className="w-[500px] leading-[26px] mt-4">
+          <Paragraph className="md:w-[500px] leading-[26px] mt-4">
             There are many variations of passages of Lorem Ipsum available,
             but the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly believable.
           </Paragraph>
 
           
-          <div className="mt-10 flex">
+          <div className="mt-10 lg:flex">
             <AgencCard
             className="mr-[80px]"
               src={iconone}
@@ -55,7 +55,7 @@ const Agenc = () => {
             />
            </div>
         </div>
-        <div className="w-5/12">
+        <div className="md:w-5/12">
           <Image src={agencbanner}/>
         </div>
        </Flex>
