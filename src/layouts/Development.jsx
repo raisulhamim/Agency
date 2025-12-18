@@ -11,7 +11,7 @@ const Development = () => {
     <Container>
       <Flex>
 
-        <div className='w-6/12 mt-[157px]'>
+        <div className='md:w-6/12 mt-[157px]'>
                 <Heading
             className="w-[450px]"
             text="We Do design, Code & Development"
@@ -28,7 +28,7 @@ const Development = () => {
           </Paragraph>
 
         </div>
-        <div className='w-6/12'>
+        <div className='md:w-6/12'>
         <Developmentright/>
         </div>
       </Flex>
