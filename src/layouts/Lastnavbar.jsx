@@ -9,7 +9,7 @@ import Flex from '../components/Flex';
 
 const Lastnavbar = () => {
   return (
-    <section className='pt-[150px] pb-[40px]'>
+    <section className='pt-[145px] pb-[45px]'>
         <Container>
            <Flex>
              <div className='w-[38%]'>
